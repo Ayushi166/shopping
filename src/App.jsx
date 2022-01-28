@@ -11,7 +11,7 @@ function App() {
         : []
     );
 
-    const [editMode, setEditMode] = useState(false);
+    // const [editMode, setEditMode] = useState(false);
 
     const addProduct = (product) =>{
         updateProducts([...products,product])
@@ -22,7 +22,7 @@ function App() {
     }
 
     const editProduct = (product) => {
-        setEditMode(true)
+        // setEditMode(true)
     }
 
     const updateProducts = (products) =>{
